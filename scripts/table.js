@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#myTable').DataTable( {
-        "ajax": '../JSON/horarios.json',
+        "ajax": 'https://carlosgaray.github.io/secundary.-schedule/JSON/horarios.json',
         searching: false,
         paging: false,
         info: false, 

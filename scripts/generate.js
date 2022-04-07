@@ -252,7 +252,7 @@ function crearLineaCursos(arrCursos, dataTable){
 }
 
 function generateSchedule(lineaDeEntrada) {
-    fetch("../JSON/horarioUltimo.json")
+    fetch("https://carlosgaray.github.io/secundary.-schedule/JSON/horarioUltimo.json")
     .then(response => response.json())
     .then(data => {
         let dataHorario = data;

@@ -1,5 +1,5 @@
 const filter = (ciclo) => {
-    fetch("../JSON/horarios.json")
+    fetch("https://carlosgaray.github.io/secundary.-schedule/JSON/horarios.json")
     .then(response => response.json())
     .then(data => {
         
